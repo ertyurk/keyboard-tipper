@@ -23,7 +23,7 @@ export default function Home() {
   const keyboardsContract = getKeyboardsContract(ethereum);
 
 
-  const contractAddress = process.env.CONTRACT_ADDRESS;
+  const contractAddress = '0x16eA61dD37E52D3e0b26377f528a6591B8fbD59E';
   const contractABI = abi.abi;
 
   const handleAccounts = (accounts) => {
